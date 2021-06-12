@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+header {
+
+color: black;
+
+}
+
+body {
+
+background-image: url("nirai.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 150vh;
+
+}
+.wrapper {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.wrapper > * {
+margin: 16px;
+
+}
+
+
+.choices{
+width: 100%;
+display: flex;
+justify-content:space-between;
+transform: translateY(100%);
+flex-wrap: wrap;
+
+}
+
+img {
+cursor: pointer;
+}
+button {
+
+margin-top: 160px;
+padding: 8px;
+border: none;
+background-color:darkslategray;
+color:darkgrey;
+border-radius: 10px;
+/*transform: translateY(150px);*/
+cursor: pointer;
+
+}
+
+.results {
+
+cursor: alias;
+
+}
+
+@media screen and (max-width: 300px) {
+
+    button {
+
+        margin-top: 300px;
+    }
+    
+}
