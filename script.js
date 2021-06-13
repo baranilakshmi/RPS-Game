@@ -78,7 +78,7 @@ function frontend(mychoice,botchoice,gameresult){
 
 const image = {
 
-'rock':rock.scr,
+'rock':rock.src,
 'paper':paper.src,
 'scissors':scissors.src
     }
